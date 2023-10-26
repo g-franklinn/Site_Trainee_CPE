@@ -1,10 +1,18 @@
+import "./App.css";
+
 function App() {
 
   return (
     <>
-      oi
-      <input></input>
-      <p>Sejam bem vindos à primeira versão do nosso site!</p>
+      <div className="header">
+
+      </div>
+      <div className="page-content">
+          <h1>Hello World</h1>
+      </div>
+      <div className="footer">
+
+      </div>
     </>
   )
 }
