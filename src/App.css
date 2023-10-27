@@ -33,7 +33,13 @@
 .footer{
     height: 120px;
     background-color: #000000;
-    background-color: blue;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
 }
 
 

@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <div className="footer">
-
+			<p className="footer-text">2023 © Doti Musical</p>
       </div>
     </>
   )
