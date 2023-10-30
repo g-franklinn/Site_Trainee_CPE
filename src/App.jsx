@@ -1,26 +1,30 @@
-import "./App.css";
+import { Footer } from "./styles.js";
+import { Header } from "./styles.js";
+import { PageContent } from "./styles.js";
+
 
 function App() {
 
   return (
     <>
-      <div className="header">
-        <h1 className="header-title">DOTI Musical</h1>
-
-        Doti Musical
-
+      <Header>
+        <h1>DOTI Musical</h1>
         <div className="header-menu">
-          OIIII
+          <a href="#">Home</a>
+          <a href="#">Login</a>
+          <a href="#">Cadastro</a>
+          <a href="#">Meu Perfil</a>
+          <a href="#">Editar Perfil</a>
         </div>
-      </div>
+      </Header>
 
-      <div className="page-content">
-          <h1>Hello World</h1>
-      </div>
+      <PageContent>
 
-      <div className="footer">
-			<p className="footer-text">2023 © Doti Musical</p>
-      </div>
+      </PageContent>
+
+      <Footer>
+			<p>2023 © Doti Musical</p>
+      </Footer>
     </>
   )
 }
