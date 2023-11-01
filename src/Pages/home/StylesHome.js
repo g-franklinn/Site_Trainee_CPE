@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
-import './font.css';
+import '../../font.css';
 
 //Remove as configurações padrão do navegador
 export const GlobalStyle = createGlobalStyle`
