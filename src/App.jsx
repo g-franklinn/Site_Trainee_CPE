@@ -1,12 +1,12 @@
-import { Footer } from "./styles.js";
-import { Header } from "./styles.js";
-import { PageContent } from "./styles.js";
+import { Footer, Header, PageContent, GlobalStyle } from "./styles.js";
+ 
 
 
 function App() {
 
   return (
     <>
+    <GlobalStyle />
       <Header>
         <h1>DOTI Musical</h1>
 

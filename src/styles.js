@@ -1,6 +1,16 @@
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import './font.css';
 
+
+//Remove as configurações padrão do navegador
+export const GlobalStyle = createGlobalStyle`
+    * {
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+`;
 
 export const Header = styled.div`
     width: 100%;
@@ -14,14 +24,24 @@ export const Header = styled.div`
         font-size: 88px;
         font-weight: 200;
         padding-top: 2rem;
+        user-select: none;
+
+        @media (max-width: 768px) {
+            font-size: 65px;
+        }
     }
 
     & .header-menu {
-        margin-top: -35px;
+        margin-top: 24px;
         text-align: center;
         font-family: 'Sansation Light';
         height: 30px;
         background: #EEE;
+
+        @media (max-width: 768px) {
+            margin-top: 21px;
+            height: 60px;
+        }
     }
 
     & a {
@@ -31,6 +51,19 @@ export const Header = styled.div`
         position: relative;
         top: 5px;
         margin-inline: 3%;
+        user-select: none;
+
+
+        &:hover{
+            background-color: #CDCDCD;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            margin: 0 28px 5px 30px;
+            display: inline-flex;
+
+        }
     }
 `
 
