@@ -1,5 +1,6 @@
 import {GlobalStyle,Header,PageContent, Footer} from "./StylesHome";
 
+
 function Home() {
 
   return (
