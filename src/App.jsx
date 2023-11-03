@@ -1,13 +1,14 @@
-//import { Footer, Header, PageContent, GlobalStyle } from "./styles.js";
-import Home from "./Pages/home/home.jsx";
+import { Footer, Header, PageContent, GlobalStyle } from "./styles.js";
+import Routes from "./routes.jsx";
+ 
+
 
 function App() {
 
   return (
     <>
-
-    <Home/>
-
+    <GlobalStyle />
+    <Routes/>
     </>
   )
 }

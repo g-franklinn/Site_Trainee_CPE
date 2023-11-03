@@ -1,4 +1,7 @@
-import {GlobalStyle,Header,PageContent, Footer} from "./StylesHome";
+import "./StylesHome";
+import HeaderBase from "../../components/header/header";
+import FooterBase from "../../components/footer/footer";
+import { PageContent } from "./StylesHome";
 
 
 function Home() {
@@ -6,41 +9,17 @@ function Home() {
   return (
     <>
 
-<GlobalStyle />
-<Header>
-  <h1>DOTI Musical</h1>
+      <div>
+          <HeaderBase />
 
-  <div className="header-menu">
-    <a href="#">Home</a>
-    <a href="#">Login</a>
-    <a href="#">Cadastro</a>
-    <a href="#">Meu Perfil</a>
-    <a href="#">Editar Perfil</a>
-  </div>
-</Header>
+          <PageContent>
+              <div className="menuInterno">
 
-<PageContent>
+              </div>
+          </PageContent>
 
-Não remover enquanto não houver conteudo aqui.
-
-<div className="menuInterno" >
-
-
-</div>
-
-</PageContent>
-
-<Footer>
-  <div className="SocialMedia">
-  <p>Facebook</p>
-  <p>Insta</p>
-  <p>Wpp</p>
-  <p>X</p>
-  </div>
-
-<p>2023 © Doti Musical</p>
-</Footer>
-
+          <FooterBase/>
+      </div>
 
     </>
   )

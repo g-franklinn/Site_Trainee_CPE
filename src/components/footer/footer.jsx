@@ -1,6 +1,6 @@
 import {Footer} from "./Styles";
 
-function Footer(){
+function FooterBase(){
 
     return(
        <Footer>
@@ -16,4 +16,4 @@ function Footer(){
 
 }
 
-export default Footer;
+export default FooterBase;

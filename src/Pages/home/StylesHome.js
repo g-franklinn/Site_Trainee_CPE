@@ -80,7 +80,7 @@ export const Header = styled.div`
 `
 
 export const PageContent = styled.div`
-    height: 1200px;
+    height: 1400px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -89,8 +89,8 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 70%;
-        height: 80%;
-        margin-top: 10rem;
+        height: 50%;
+        margin-top: 37rem;
         margin-inline: auto;
 
         background-color: black;
