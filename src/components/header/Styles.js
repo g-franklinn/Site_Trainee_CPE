@@ -3,18 +3,35 @@ import '../../font.css';
 
 export const Header = styled.div`
 
-    width: 100%;
-    height: 11.75rem;
-    background: #000;
+    & .header-title {
+        display:flex;
+        height:150px;
+        background:black;
+        width:100%;
 
+        @media (max-width: 628px) {
+            height:180px;
+        }
+    }
+
+    & .guitar-icon {
+        width:15rem;
+        margin-left:-15px;
+        margin-bottom:-25px;
+        
+        @media (max-width: 628px) {
+            margin-bottom:-45px;
+        }
+    }
+  
     & h1 {
+        width:max-content;
         color: #FF9B50;
-        text-align: center;
+        text-align:center;
         font-family: 'Sansation Light';
-        font-size: 88px;
+        font-size: 85px;
         font-weight: 200;
-        padding-top: 2rem;
-        padding-bottom: 1.5rem;
+        margin:auto;
         user-select: none;
 
         @media (max-width: 768px) {
@@ -27,9 +44,9 @@ export const Header = styled.div`
         font-family: 'Sansation Light';
         height: 30px;
         background: #EEE;
+        padding-inline:10%;
 
         @media (max-width: 768px) {
-            margin-top: 21px;
             display:flex;
             flex-direction:column;
             height:150px;  
@@ -49,6 +66,7 @@ export const Header = styled.div`
         &:hover{
             background-color: #CDCDCD;
             font-weight: 600;
+            text-decoration-line:underline;
             top:5px;
                         
         }

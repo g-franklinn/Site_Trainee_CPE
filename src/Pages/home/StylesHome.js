@@ -11,76 +11,24 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const Header = styled.div`
-    width: 100%;
-    height: 11.75rem;
-    background: #000;
+export const Avisos = styled.div`
+
+    background-color: #222;
+    padding-top:80px;
 
     & h1 {
-        color: #FF9B50;
-        text-align: center;
-        font-family: 'Sansation Light';
-        font-size: 88px;
-        font-weight: 200;
-        padding-top: 2rem;
-        padding-bottom: 1.5rem;
-        user-select: none;
-
-        @media (max-width: 768px) {
-            font-size: 65px;
-        }
-    }
-
-    & .header-menu {
-        text-align: center;
-        font-family: 'Sansation Light';
-        height: 30px;
-        background: #EEE;
-
-        @media (max-width: 768px) {
-            margin-top: 21px;
-            display:flex;
-            flex-direction:column;
-            height:150px;  
-        }
-    }
-
-    & a {
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        top:5px;
-        margin-inline: 2%;
-        padding-inline:2%;
-        position:relative;
-        user-select: none;
         
-        &:hover{
-            background-color: #CDCDCD;
-            font-weight: 600;
-            top:5px;
-                        
-        }
-
-        @media (max-width: 768px) {
-            margin: 0 28px 5px 30px;
-            width:fit-content;
-            display: inline-flex;
-            padding-bottom:2px;
-            margin-inline:auto;
-
-        }
+        color:#ff9b50;
+        font-family:'Sansation Light';
+        font-weight:100;
+        margin-left:20%;
     }
 
-    @media (max-width: 768px) {
-        flex-direction:column;
-        position:relative;
 
-        }
 `
 
 export const PageContent = styled.div`
-    height: 1400px;
+    height: 1000px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -88,41 +36,41 @@ export const PageContent = styled.div`
 
     & .menuInterno {
 
-        width: 70%;
+        width: 80%;
         height: 50%;
-        margin-top: 37rem;
+        margin-top: 25rem;
         margin-inline: auto;
 
         background-color: black;
         border:solid;
+        border-width:3px;
         border-radius: 5px;
         border-color: #ff9b50;
-        border-width:3px;
 
+        & h1 {
+            color: #ff9b50;
+            margin-left:6%;
+            margin-top:35px;
+            font-family:'Sansation Light';
+            font-weight:100;
+        }
 
+    
     }
 
+    & .tambor {
+            width:200px; 
+            margin:80px 0 0 50px;
+            position:absolute;
+            rotate:30deg;
+        }
+        
+        & .violino {
+            width:160px; 
+            margin: 100px 50px 0 80%;
+            position:absolute;
+            rotate:30deg;
+        }
 
-`
 
-export const Footer = styled.div`
-    height: 7rem;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    & p {
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Sansation Light';
-    text-align: center;
-    }
-
-    & .SocialMedia {
-        justify-content: center;
-        gap:2%;
-        display: flex;
-        flex-direction:line;
-    }
 `
