@@ -11,11 +11,13 @@ function Carrossel() {
         <StyleCarrossel>
             <HeroSlider
                 height="60vh"
-                slidingDuration={250}
+                autoplay
+                backgroundSize="100% 100%"
+                slidingDuration={20}
                 slidingDelay={100}
                 shouldAutoplay={true}
                 shouldDisplayButtons={true}
-                autoplayDuration={5000}
+                autoplayDuration={100}
                 slidingAnimation="left_to_right"
                 orientation="horizontal"
                 initialSlide={1}
@@ -29,19 +31,25 @@ function Carrossel() {
                 <Slide
                     background={{
                         backgroundImageSrc: imagem1,
-                        backgroundAttachment: "fixed"
+                        backgroundAttachment: "fixed",
+                        backgroundSize: '100% 100%',
+                        backgroundImageSizes: "cover",
                     }}
                 />
                 <Slide
                     background={{
                         backgroundImageSrc: imagem2,
-                        backgroundAttachment: "fixed"
+                        backgroundAttachment: "fixed",
+                        backgroundSize: '100% 100%',
+                        backgroundImageSizes: "cover" 
                     }}
                 />
                 <Slide
                     background={{
-                        backgroundImage: imagem3,
-                        backgroundAttachment: "fixed"
+                        backgroundImageSrc: imagem3,
+                        backgroundAttachment: "fixed",
+                        backgroundSize: '100% 100%',
+                        backgroundImageSizes: "cover" 
                     }}
                 />
             </HeroSlider>

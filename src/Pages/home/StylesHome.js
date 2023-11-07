@@ -21,8 +21,9 @@ export const Avisos = styled.div`
         
         color:#ff9b50;
         font-family:'Sansation Light';
-        font-weight:100;
-        margin-left:20%;
+        font-weight:600;
+        font-size: 38px;
+        margin-left:25%;
     }
 
 
@@ -67,6 +68,7 @@ export const PageContent = styled.div`
 
     & img {
         overflow-x: hidden;
+        user-select: none;
         @media (max-width: 1100px) {
             width: 0;
             height: 0;

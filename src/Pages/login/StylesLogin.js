@@ -2,8 +2,29 @@ import styled from "styled-components";
 import '../../font.css';
 
 
+export const StyledForm = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+`;
+
+export const StyledInput = styled.input` //Area de texto
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 200px;
+`;
+
+export const StyledButton = styled.button` //Botao de Autenticação
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: blue;
+  color: white;
+`;
+
+
 export const PageContent = styled.div`
-    height: 1200px;
+    height: 800px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -19,7 +40,7 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 70%;
-        height: 80%;
+        height: 60%;
         margin-top: 10rem;
         margin-inline: auto;
         position: absolute;
@@ -49,6 +70,12 @@ export const PageContent = styled.div`
         @media (max-width: 768px) {
             top: 11rem;
         }
+    }
+
+    & h2 {
+        font-size: 30px;
+        color: #ff9b50;
+        font-family: 'Sansation Light';
     }
 
 

@@ -28,6 +28,7 @@ export const Footer = styled.div`
     & .icon {
         height:40px;
         width:40px;
+        user-select: none;
         filter:contrast(0);
         &:hover {
             filter:contrast(1);

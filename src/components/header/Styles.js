@@ -8,6 +8,7 @@ export const Header = styled.div`
         height:150px;
         background:black;
         width:100%;
+        overflow: hidden;
 
         @media (max-width: 628px) {
             height:180px;
@@ -17,7 +18,9 @@ export const Header = styled.div`
     & .guitar-icon {
         width:20rem;
         margin-left:-15px;
-        margin-bottom:-25px;
+        margin-bottom:-45px;
+        user-select: none;
+        
         
         
         @media (max-width: 628px) {
