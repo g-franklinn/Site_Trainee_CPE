@@ -15,9 +15,10 @@ export const Header = styled.div`
     }
 
     & .guitar-icon {
-        width:15rem;
+        width:20rem;
         margin-left:-15px;
         margin-bottom:-25px;
+        
         
         @media (max-width: 628px) {
             margin-bottom:-45px;
@@ -34,7 +35,8 @@ export const Header = styled.div`
         margin:auto;
         user-select: none;
 
-        @media (max-width: 768px) {
+
+        @media (max-width: 868px) {
             font-size: 65px;
         }
     }
@@ -45,6 +47,8 @@ export const Header = styled.div`
         height: 30px;
         background: #EEE;
         padding-inline:10%;
+
+
 
         @media (max-width: 768px) {
             display:flex;

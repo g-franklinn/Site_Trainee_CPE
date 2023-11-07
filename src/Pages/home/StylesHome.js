@@ -14,7 +14,8 @@ export const GlobalStyle = createGlobalStyle`
 export const Avisos = styled.div`
 
     background-color: #222;
-    padding-top:80px;
+    padding-top: 80px;
+
 
     & h1 {
         
@@ -28,18 +29,24 @@ export const Avisos = styled.div`
 `
 
 export const PageContent = styled.div`
-    height: 1000px;
+    height: 1400px;
     background-color: #222;
     display:flex;
     flex-direction: column;
+    
+
+
     
 
     & .menuInterno {
 
         width: 80%;
         height: 50%;
-        margin-top: 25rem;
+        margin-top: -10rem;
+        margin-bottom: 10rem;
         margin-inline: auto;
+        z-index: 1;
+        
 
         background-color: black;
         border:solid;
@@ -58,6 +65,15 @@ export const PageContent = styled.div`
     
     }
 
+    & img {
+        overflow-x: hidden;
+        @media (max-width: 1100px) {
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+    }
+
     & .tambor {
             width:200px; 
             margin:80px 0 0 50px;
@@ -67,9 +83,10 @@ export const PageContent = styled.div`
         
         & .violino {
             width:160px; 
-            margin: 100px 50px 0 80%;
+            margin: 100px 50px 0 86%;
             position:absolute;
             rotate:30deg;
+            
         }
 
 

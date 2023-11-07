@@ -1,6 +1,7 @@
 import "./StylesHome";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
+import Carrossel from "../../components/carrossel/Carrossel";
 import { PageContent } from "./StylesHome";
 import { Avisos } from "./StylesHome";
 import Tambor from "../../assets/Tambor.svg";
@@ -18,14 +19,13 @@ function Home() {
           <HeaderBase />
 
           <Avisos>
-
           <h1>Avisos:</h1>
-
           </Avisos>
-
+          
+          
 
           <PageContent>
-            
+          <Carrossel/>  
           <img src={Tambor}  className="tambor" />
           <img src={Violino}  className="violino" />
           

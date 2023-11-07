@@ -1,7 +1,7 @@
 import "./StylesEditarPerfil";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
-import { PageContent } from "../../styles";
+import { PageContent } from "./StylesEditarPerfil";
 
 
 
@@ -14,9 +14,12 @@ function EditarPerfil() {
           <HeaderBase />
 
           <PageContent>
+            <div className="container">
+              <h1>Editar Perfil</h1>
               <div className="menuInterno">
-
+              
               </div>
+            </div>
           </PageContent>
 
           <FooterBase/>

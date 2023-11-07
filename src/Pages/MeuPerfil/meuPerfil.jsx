@@ -1,7 +1,7 @@
 import "./StylesMeuPerfil";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
-import { PageContent } from "../../styles";
+import { PageContent } from "./StylesMeuPerfil";
 
 
 function MeuPerfil() {
@@ -13,9 +13,12 @@ function MeuPerfil() {
           <HeaderBase />
 
           <PageContent>
+            <div className="container">
+              <h1>Meu Perfil</h1>
               <div className="menuInterno">
-
+              
               </div>
+            </div>
           </PageContent>
 
           <FooterBase/>
