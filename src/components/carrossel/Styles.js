@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 export const StyleCarrossel = styled.div`
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding-bottom: 20rem;
     margin-bottom: -5rem;

@@ -1,10 +1,9 @@
 import React from "react";
 import HeroSlider, {Slide} from 'hero-slider';
 import { StyleCarrossel } from "./Styles";
-
-const imagem1 = "https://i.imgur.com/RqE65US.jpeg";
-const imagem2 = "https://i.imgur.com/Rlcq1lB.jpeg";
-const imagem3 = "https://i.imgur.com/eGura2z.jpeg";
+import imagem1 from "../../assets/Carrossel1.jpeg";
+import imagem2 from "../../assets/Carrossel2.jpeg";
+import imagem3 from "../../assets/Carrossel3.jpeg";
 
 function Carrossel() {
     return (

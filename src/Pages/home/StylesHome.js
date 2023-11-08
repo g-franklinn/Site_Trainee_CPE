@@ -102,14 +102,14 @@ export const PageContent = styled.div`
             position:absolute;
             rotate:30deg;
         }
+    
+    & .violino {
+        width:160px; 
+        margin: 100px 50px 0 86%;
+        position:absolute;
+        rotate:30deg;
         
-        & .violino {
-            width:160px; 
-            margin: 100px 50px 0 86%;
-            position:absolute;
-            rotate:30deg;
-            
-        }
+    }
 
 
 `

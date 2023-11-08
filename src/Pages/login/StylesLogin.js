@@ -8,77 +8,84 @@ export const StyledForm = styled.div`
   align-items: center;
   text-align: left;
   gap: 1rem;
-  display: flex;
-
+  border-radius:5px;
 `;
 
 export const StyledInput = styled.input` //Area de texto
   padding: 0.5rem;
   border-radius: 5px;
   font-size: 1rem;
-  width: 50%;
+  width: 70%;
+  border-radius:5px;
 `;
 
 export const StyledButton = styled.button` //Botao de Autenticação
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  background-color: #FF9B50;
-  border-radius: 5px;
-  color: black;
-  width: 120px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family:'Sansation Light';
+    font-weight:bold;
+    background-color: #ff9b50;
+    color: black;
+    border-radius:5px;
 
-  .loginBtn:hover{
-    background-color: blue;
-  }
+    &:hover{
+            background-color: black;
+            color:#ff9b50;
+            font-family:'Sansation Light';
+            font-weight: 100;
+            border:solid;
+            border-color:#ff9b50;
+            border-width:2px;
+                        
+        }
 `;
 
 
 export const PageContent = styled.div`
-    height: 800px;
+    height: 500px;
     background-color: #222;
     display:flex;
     flex-direction: column;
-    overflow-x: hidden;
     
     & .container {
-        position: relative;
+        margin-top: 3rem;  
         height: 100%;
-        left: 15%;
+        z-index:3;
 
+        @media (max-width: 768px) {
+            margin-top: 1rem;
+            height: 80%;
+        }
     }
 
     & .menuInterno {
 
-        width: 70%;
-        height: 60%;
-        margin-top: 10rem;
+        width: 60%;
+        height: 65%;
         margin-inline: auto;
-        position: absolute;
-
 
         background-color: black;
         border:solid;
         border-radius: 5px;
         border-color: #ff9b50;
-        border-width:3px;
+        border-width:2px;
 
         @media (max-width: 768px) {
-            margin-top: 15rem;
-            height: 70%;
+            height: 75%;
         }
-
     }
 
     & h1 {
-        position: absolute;
-        top: 90px;
-        left: 0;
+        margin-top: 40px;
+        margin-left: 20%;
+        margin-bottom:10px;
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
+        font-weight:100;
 
         @media (max-width: 768px) {
-            top: 11rem;
+            margin-top: 20px;
         }
     }
 
@@ -86,6 +93,40 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
+        font-weight:100;
+        margin-left:-50%;
+    }
+
+    & .violino {
+        width:70px; 
+        margin: 120px 50px 0 90%;
+        position:absolute;
+        rotate:30deg;
+    }
+
+    & .nota1 {
+        width:120px; 
+        margin: 40px auto auto 1%;
+        position:absolute;
+        rotate:-5deg;
+        
+    }
+    
+    & .nota4 {
+        width:70px; 
+        margin: 400px auto auto 80%;
+        position:absolute;
+        rotate:-5deg;
+        
+    }
+    
+    & .arpa {
+        width:70px; 
+        margin: 400px auto auto 10%;
+        position:absolute;
+        rotate:-5deg;
+        z-index:0;
+        
     }
 
 
