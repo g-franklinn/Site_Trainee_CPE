@@ -89,11 +89,6 @@ export const PageContent = styled.div`
     & img {
         overflow-x: hidden;
         user-select: none;
-        @media (max-width: 1100px) {
-            width: 0;
-            height: 0;
-            opacity: 0;
-        }
     }
 
     & .tambor {
@@ -101,6 +96,11 @@ export const PageContent = styled.div`
             margin:80px 0 0 50px;
             position:absolute;
             rotate:30deg;
+
+            @media (max-width: 1100px) {
+                width: 20%;
+            }
+            
         }
     
     & .violino {
@@ -108,6 +108,10 @@ export const PageContent = styled.div`
         margin: 100px 50px 0 86%;
         position:absolute;
         rotate:30deg;
+
+        @media (max-width: 1100px) {
+                width: 10%;
+            }
         
     }
 

@@ -39,7 +39,7 @@ export const StyledButton = styled.button` //Botao de Autenticação
 `;
 
 export const PageContent = styled.div`
-    height: 500px;
+    height: 600px;
     background-color: #222;
     display:flex;
     flex-direction: column;
