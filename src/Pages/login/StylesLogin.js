@@ -6,20 +6,30 @@ export const StyledForm = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
   gap: 1rem;
+  display: flex;
+
 `;
 
 export const StyledInput = styled.input` //Area de texto
   padding: 0.5rem;
+  border-radius: 5px;
   font-size: 1rem;
-  width: 200px;
+  width: 50%;
 `;
 
 export const StyledButton = styled.button` //Botao de Autenticação
   padding: 0.5rem 1rem;
-  font-size: 1rem;
-  background-color: blue;
-  color: white;
+  font-size: 1.1rem;
+  background-color: #FF9B50;
+  border-radius: 5px;
+  color: black;
+  width: 120px;
+
+  .loginBtn:hover{
+    background-color: blue;
+  }
 `;
 
 

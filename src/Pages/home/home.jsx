@@ -8,6 +8,7 @@ import Tambor from "../../assets/Tambor.svg";
 import Violino from "../../assets/Violino.svg";
 import Teclado from "../../assets/Teclado.svg";
 import Saxofone from "../../assets/Saxofone.svg";
+import { StyledButton } from "../login/StylesLogin";
 
 
 function Home() {
@@ -31,7 +32,14 @@ function Home() {
           
               <div className="menuInterno">
 
-              <h1>Usuários Online</h1>
+              <div className="containerUsuarios">
+                <h1>Usuários Online</h1>
+                <StyledButton>Fazer Login</StyledButton>
+              </div>
+
+              <div className="menuUsuarios">
+
+              </div>
 
               </div>
           </PageContent>

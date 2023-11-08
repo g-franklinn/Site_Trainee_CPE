@@ -47,6 +47,7 @@ export const PageContent = styled.div`
         margin-bottom: 10rem;
         margin-inline: auto;
         z-index: 1;
+        overflow-y: hidden;
         
 
         background-color: black;
@@ -61,6 +62,25 @@ export const PageContent = styled.div`
             margin-top:35px;
             font-family:'Sansation Light';
             font-weight:100;
+        }
+
+        & .menuUsuarios {
+            margin-top: 3%;
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        }
+
+        & .containerUsuarios {
+            display: flex;
+
+            & button {
+                margin-top: 30px;
+                margin-left: 55%;
+                margin-right: 40px;
+                width: 160px;
+                height: 50px;
+            }
         }
 
     
