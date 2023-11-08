@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import '../../font.css';
 
-
 export const StyledForm = styled.div`
   display: flex;
   flex-direction: column;
@@ -35,11 +34,9 @@ export const StyledButton = styled.button` //Botao de Autenticação
             font-weight: 100;
             border:solid;
             border-color:#ff9b50;
-            border-width:2px;
-                        
+            border-width:2px;                        
         }
 `;
-
 
 export const PageContent = styled.div`
     height: 500px;
@@ -61,7 +58,7 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 60%;
-        height: 65%;
+        height: 70%;
         margin-inline: auto;
 
         background-color: black;
@@ -102,22 +99,32 @@ export const PageContent = styled.div`
         margin: 120px 50px 0 90%;
         position:absolute;
         rotate:30deg;
+        
+        @media (max-width: 768px) {
+            width: 10%;
+        }
     }
 
     & .nota1 {
         width:120px; 
         margin: 40px auto auto 1%;
         position:absolute;
-        rotate:-5deg;
-        
+        rotate:-5deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
     }
     
     & .nota4 {
         width:70px; 
-        margin: 400px auto auto 80%;
+        margin: 370px auto auto 82%;
         position:absolute;
-        rotate:-5deg;
-        
+        rotate:-5deg;  
+
+        @media (max-width: 768px) {
+            width: 12%;
+        }
     }
     
     & .arpa {
@@ -126,8 +133,9 @@ export const PageContent = styled.div`
         position:absolute;
         rotate:-5deg;
         z-index:0;
-        
+
+        @media (max-width: 768px) {
+            width: 15%;
+        }
     }
-
-
 `

@@ -8,7 +8,6 @@ import Tambor from "../../assets/Tambor.svg";
 import Violino from "../../assets/Violino.svg";
 import Teclado from "../../assets/Teclado.svg";
 import Saxofone from "../../assets/Saxofone.svg";
-import { StyledButton } from "../login/StylesLogin";
 
 
 function Home() {

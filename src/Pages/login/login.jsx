@@ -29,17 +29,15 @@ function Login () {
               <h1>Login</h1>
               <div className="menuInterno">
 
-              <StyledForm>
-                <h2></h2>
-                <h2></h2>
-                <h2>Usuário</h2>
-                <StyledInput type="text" placeholder="Digite seu login" />
-                <h2>Senha</h2>
-                <StyledInput type="password" placeholder="Digite sua senha" />
-                <StyledButton className="loginBtn" onClick={handleLogin}>Entrar</StyledButton>
-              </StyledForm>
-              
-
+                <StyledForm>
+                  <h2></h2>
+                  <h2></h2>
+                  <h2>Usuário</h2>
+                  <StyledInput type="text" placeholder="Digite seu login" />
+                  <h2>Senha</h2>
+                  <StyledInput type="password" placeholder="Digite sua senha" />
+                  <StyledButton className="loginBtn" onClick={handleLogin}>Entrar</StyledButton>
+                </StyledForm>
               </div>
             </div>
             
