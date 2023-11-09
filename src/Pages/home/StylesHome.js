@@ -115,7 +115,7 @@ export const PageContent = styled.div`
     
     & .saxofone {
             width:100px;
-            margin:1000px 0 0 2%;
+            margin:900px 0 0 2%;
             position:absolute;
             rotate:50deg;
 
