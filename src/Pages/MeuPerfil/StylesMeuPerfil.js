@@ -22,6 +22,7 @@ export const PageContent = styled.div`
     & .containerEditar {
         display: flex;
         flex-wrap: wrap;
+        
     }
 
     & .menuInterno {
@@ -31,6 +32,7 @@ export const PageContent = styled.div`
         margin-top: 10rem;
         margin-inline: auto;
         position: absolute;
+        overflow-y: hidden;
 
 
         background-color: black;
@@ -46,7 +48,9 @@ export const PageContent = styled.div`
     }
 
     & .infoUsuarios {
-        margin: 10%;
+        margin: auto;
+        margin-top: 7%;
+        
     }
 
     & h1 {

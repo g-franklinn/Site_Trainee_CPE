@@ -13,6 +13,50 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
+//Botoes, input e formulario
+
+export const StyledForm = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 1rem;
+  border-radius:5px;
+`;
+
+export const StyledInput = styled.input` //Area de texto
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 70%;
+  border-radius:5px;
+`;
+
+export const StyledButton = styled.button` //Botao de Autenticação
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family:'Sansation Light';
+    font-weight:bold;
+    background-color: #ff9b50;
+    color: black;
+    border-radius:5px;
+
+    &:hover{
+            background-color: black;
+            color:#ff9b50;
+            font-family:'Sansation Light';
+            font-weight: 100;
+            border:solid;
+            border-color:#ff9b50;
+            border-width:2px;                        
+        }
+`;
+
+
+
+
+
+/****************************************/
 export const Header = styled.div`
     width: 100%;
     height: 11.75rem;

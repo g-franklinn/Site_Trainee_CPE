@@ -33,7 +33,7 @@ function Home() {
 
               <div className="containerUsuarios">
                 <h1>Usuários Online</h1>
-                <StyledButton>Fazer Login</StyledButton>
+
               </div>
 
               <div className="menuUsuarios">

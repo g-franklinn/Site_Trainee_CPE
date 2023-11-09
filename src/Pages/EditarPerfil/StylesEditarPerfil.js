@@ -2,7 +2,7 @@ import styled from "styled-components";
 import '../../font.css';
 
 export const PageContent = styled.div`
-    height: 1250px;
+    height: 1000px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -16,10 +16,16 @@ export const PageContent = styled.div`
 
     }
 
+    & .containerEditar {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
     & .menuInterno {
 
         width: 70%;
-        height: 80%;
+        height: 70%;
         margin-top: 10rem;
         margin-inline: auto;
         position: absolute;
@@ -38,6 +44,12 @@ export const PageContent = styled.div`
 
     }
 
+    & .infoUsuarios {
+        margin: auto;
+        margin-top: 7%;
+        
+    }
+
     & h1 {
         position: absolute;
         top: 90px;
@@ -49,6 +61,34 @@ export const PageContent = styled.div`
         @media (max-width: 768px) {
             top: 11rem;
         }
+    }
+
+    & h2 {
+        font-size: 26px;
+        color: #ff9b50;
+        font-family: 'Sansation Light';
+        font-weight:100;
+
+        @media (max-width: 768px) {
+            font-size: 22px;
+        }
+    }
+
+    & p {
+        font-size: 30px;
+        color: white;
+        font-family: 'Sansation Light';
+        font-weight:600;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+
+    & button {
+        margin: auto;
+        height: 50px;
+        width: 180px;
     }
 
 
