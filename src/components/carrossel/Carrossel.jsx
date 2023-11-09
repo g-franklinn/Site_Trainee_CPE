@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import HeroSlider, {Slide} from 'hero-slider';
 import { StyleCarrossel } from "./Styles";
-import imagem1 from "../../assets/Carrossel1.jpeg";
-import imagem2 from "../../assets/Carrossel2.jpeg";
-import imagem3 from "../../assets/Carrossel3.jpeg";
+import imagem1 from "../../assets/img-concerto.jpg";
+import imagem2 from "../../assets/img-piano.jpg";
+import imagem3 from "../../assets/img-escola.jpg";
 
 
 
@@ -13,7 +13,7 @@ function Carrossel() {
     return (
         <StyleCarrossel>
             <HeroSlider
-                height="60vh"
+                height="40vh"
                 autoplay
                 backgroundSize="100% 100%"
                 slidingDuration={20}

@@ -7,6 +7,7 @@ export const StyledForm = styled.div`
   align-items: left;
   gap: 1rem;
   border-radius:5px;
+  margin-top: 50px;
 `;
 
 export const StyledInput = styled.input` //Area de texto
@@ -52,7 +53,7 @@ export const PageContent = styled.div`
         z-index:3;
         @media (max-width: 768px) {
             margin-top: 1rem;
-            height: 80%;
+            height: 90%;
         }
     }
 

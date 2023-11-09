@@ -11,6 +11,27 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
+export const StyledButton = styled.button` //Botao de Login
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family:'Sansation Light';
+    font-weight:bold;
+    background-color: #ff9b50;
+    color: black;
+    border-radius:5px;
+
+    &:hover{
+            background-color: black;
+            color:#ff9b50;
+            font-family:'Sansation Light';
+            font-weight: 100;
+            border:solid;
+            border-color:#ff9b50;
+            border-width:2px;                        
+        }
+`;
+
+
 export const Avisos = styled.div`
 
     background-color: #222;
@@ -35,7 +56,7 @@ export const PageContent = styled.div`
 
         width: 80%;
         height: 2500px;
-        margin-top: 4rem;
+
         margin-bottom: 10rem;
         margin-inline: auto;
         z-index: 1;
@@ -53,7 +74,16 @@ export const PageContent = styled.div`
             margin-top:35px;
             font-family:'Sansation Light';
             font-weight:100;
+            font-size: 34px;
+            width: 100%;
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+
         }
+
+
 
         & .menuUsuarios {
             margin-top: 3%;
@@ -63,14 +93,20 @@ export const PageContent = styled.div`
         }
 
         & .containerUsuarios {
+            width: 80%;
+            justify-content: center;
             display: flex;
+            margin: auto;
 
-            & button {
+
+            & button { 
                 margin-top: 30px;
-                margin-left: 55%;
-                margin-right: 40px;
-                width: 160px;
+                width: 50%;
                 height: 50px;
+                margin-left: 50%;
+                overflow-y: hidden;
+                }
+
             }
         }
     }
@@ -108,8 +144,9 @@ export const PageContent = styled.div`
         position:absolute;
         rotate:-10deg;
 
-        @media (max-width: 768) {
-                width: 20%;
+        @media (max-width: 768px) {
+                width: 30%;
+                margin-top: 100%;
             }   
     }
     

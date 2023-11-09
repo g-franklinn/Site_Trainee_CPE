@@ -26,8 +26,7 @@ function Cadastro() {
               <h1>Cadastro</h1>
               <div className="menuInterno">
                 <StyledForm>
-                  <h2></h2>
-                  <h2></h2>
+
                   <h2>Usuário</h2>
                   <StyledInput type="text" placeholder="Digite seu nome de usuário" />
                   <h2>Email</h2>
