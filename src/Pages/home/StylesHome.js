@@ -104,7 +104,7 @@ export const PageContent = styled.div`
 
     & .teclado {
         width:200px; 
-        margin: 600px auto 0 82%;
+        margin: 90% auto 100px 87%;
         position:absolute;
         rotate:-10deg;
 

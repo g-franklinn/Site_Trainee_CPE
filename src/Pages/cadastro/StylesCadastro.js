@@ -109,7 +109,7 @@ export const PageContent = styled.div`
 
     & .nota1 {
         width:100px; 
-        margin: 650px auto auto 3%;
+        margin: 30% auto 0 8%;
         position:absolute;
         rotate:-40deg;    
 
@@ -140,16 +140,6 @@ export const PageContent = styled.div`
         } 
     }
 
-    & .teclado {
-        width:200px; 
-        margin: 30% auto 0 8%;
-        position:absolute;
-        rotate:-10deg;
-
-        @media (max-width: 768) {
-                width: 20%;
-            }   
-    }
     
     & .saxofone {
             width:100px;
