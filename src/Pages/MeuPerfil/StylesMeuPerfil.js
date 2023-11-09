@@ -1,39 +1,24 @@
 import styled from "styled-components";
 
 export const PageContent = styled.div`
-    height: 800px;
+    height: 40rem;
     background-color: #222;
     display:flex;
     flex-direction: column;
-    overflow-x: hidden;
-
-    @media (max-width: 768px) {
-            height: 1100px;
-        }
-    
 
     & .container {
-        position: relative;
+        margin-top:3rem;
+        margin-inline:auto;
         height: 100%;
-        left: 15%;
-
-    }
-
-    & .containerEditar {
-        display: flex;
-        flex-wrap: wrap;
-        
+        width:100%;
     }
 
     & .menuInterno {
 
-        width: 70%;
-        height: 60%;
-        margin-top: 10rem;
-        margin-inline: auto;
-        position: absolute;
-        overflow-y: hidden;
-
+        width: 60%;
+        height: 65%;
+        padding-top:2rem;
+        margin-inline: auto;   
 
         background-color: black;
         border:solid;
@@ -42,21 +27,12 @@ export const PageContent = styled.div`
         border-width:3px;
 
         @media (max-width: 768px) {
-            margin-top: 15rem;
+            height: 55%;
         }
-
-    }
-
-    & .infoUsuarios {
-        margin: auto;
-        margin-top: 7%;
-        
     }
 
     & h1 {
-        position: absolute;
-        top: 90px;
-        left: 0;
+        margin: 2rem auto 10px 20%;
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
@@ -70,7 +46,7 @@ export const PageContent = styled.div`
         font-size: 26px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
+        margin-left:5%;
 
         @media (max-width: 768px) {
             font-size: 22px;
@@ -81,17 +57,24 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: white;
         font-family: 'Sansation Light';
-        font-weight:600;
+        font-weight:100;
+        margin-left:10%;
 
         @media (max-width: 768px) {
             font-size: 20px;
+            padding:1px;
         }
     }
 
     & button {
         margin: auto;
-        height: 50px;
-        width: 130px;
+        margin-left:75%;
+        height: 40px;
+        width: 120px;
+        @media(max-width:768px) {
+            margin-top:1rem;
+            margin-left:30%;
+        }
     }
 
 

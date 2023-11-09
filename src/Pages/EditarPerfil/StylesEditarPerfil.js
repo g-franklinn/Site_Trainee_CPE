@@ -6,8 +6,7 @@ import '../../font.css';
 export const StyledForm = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
+  align-items:left;
   gap: 1rem;
   border-radius:5px;
 `;
@@ -17,6 +16,7 @@ export const StyledInput = styled.input` //Area de texto
   border-radius: 5px;
   font-size: 1rem;
   width: 70%;
+  margin-inline:auto;
   border-radius:5px;
 `;
 
@@ -40,96 +40,66 @@ export const StyledButton = styled.button` //Botao de Autenticação
         }
 `;
 
-
-
 export const PageContent = styled.div`
+
     height: 1000px;
     background-color: #222;
     display:flex;
     flex-direction: column;
-    overflow-x: hidden;
-    
 
     & .container {
-        position: relative;
+        margin-top:3rem;
         height: 100%;
-        left: 15%;
-
+        @media (max-width: 768px) {
+            margin-top: 1rem;
+            height: 80%;
+        }
     }
-
-    & .containerUsuarios {
-        margin: auto;
-        margin-left: 20%;
-    }
-
 
     & .menuInterno {
 
-        width: 70%;
-        height: 70%;
-        margin-top: 10rem;
+        padding-top:2rem;
+        width: 60%;
+        height: 65%;
         margin-inline: auto;
-        position: absolute;
-
 
         background-color: black;
         border:solid;
         border-radius: 5px;
         border-color: #ff9b50;
-        border-width:3px;
+        border-width:2px;
 
         @media (max-width: 768px) {
-            margin-top: 15rem;
-            height: 70%;
+            height: 75%;
         }
-
     }
 
-    & .infoUsuarios {
-        margin: 0 auto;
-        margin-top: 7%;
-    }
 
     & h1 {
-        position: absolute;
-        top: 90px;
-        left: 0;
+        margin-top: 2rem;
+        margin-left: 20%;
+        margin-bottom:10px;
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-
-        @media (max-width: 768px) {
-            top: 11rem;
-        }
     }
 
     & h2 {
-        font-size: 26px;
+        font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
-        padding: 10px;
+        margin-left:15%;
 
         @media (max-width: 768px) {
-            font-size: 22px;
-        }
-    }
-
-    & p {
-        font-size: 30px;
-        color: white;
-        font-family: 'Sansation Light';
-        font-weight:600;
-
-        @media (max-width: 768px) {
-            font-size: 20px;
+            font-size: 25px;
         }
     }
 
     & button {
         margin-top: 20px;
+        margin-inline:auto;
         height: 50px;
-        width: 180px;
+        width: 170px;
     }
 
 

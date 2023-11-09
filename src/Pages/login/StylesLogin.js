@@ -5,10 +5,9 @@ export const StyledForm = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: left;
   gap: 1rem;
   border-radius:5px;
-  padding-top: 10%;
+  padding-top: 2.5rem;
 `;
 
 export const StyledInput = styled.input` //Area de texto
@@ -51,7 +50,7 @@ export const PageContent = styled.div`
         z-index:3;
 
         @media (max-width: 768px) {
-            margin-top: 1rem;
+            margin-top: 0rem;
             height: 80%;
         }
     }
@@ -76,13 +75,10 @@ export const PageContent = styled.div`
     & h1 {
         margin-left: 20%;
         margin-bottom:10px;
+        margin-top:2rem;
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-
-        @media (max-width: 768px) {
-            margin-top: 20px;
-        }
     }
 
     & h2 {
@@ -91,6 +87,8 @@ export const PageContent = styled.div`
         font-family: 'Sansation Light';
         margin-left:-50%;
     }
+        
+        
 
     & .violino {
         width:70px; 

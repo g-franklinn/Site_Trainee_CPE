@@ -81,79 +81,43 @@ export const PageContent = styled.div`
     }
 
     & .tambor {
-<<<<<<< Updated upstream
-            width:150px; 
-            margin:80px 0 0 3%;
-=======
-            width:180px; 
-            margin:80px 0 0 50px;
->>>>>>> Stashed changes
-            position:absolute;
-            rotate:30deg;
-
-            @media (max-width: 768) {
-                width: 20%;
-            }
-        }
-    
-    & .violino {
-<<<<<<< Updated upstream
-        width:100px; 
-=======
-        width:140px; 
->>>>>>> Stashed changes
-        margin: 100px 50px 0 86%;
+        width:150px; 
+        margin:80px 0 0 3%;
         position:absolute;
         rotate:30deg;
 
         @media (max-width: 768) {
-                width: 10%;
-            }   
-    }   
-<<<<<<< Updated upstream
-
-    & .teclado {
-        width:200px; 
-        margin: 90% auto 100px 87%;
-        position:absolute;
-        rotate:-10deg;
-
-        @media (max-width: 768) {
-                width: 20%;
-            }   
-    }
-    
-    & .saxofone {
-            width:100px;
-            margin:900px 0 0 2%;
-            position:absolute;
-            rotate:50deg;
-
-            @media (max-width: 768px) {
-                width: 15%;
-=======
-
-    & .teclado {
-        width:200px; 
-        margin: 70% auto 0 85%;
-        position:absolute;
-        rotate:-10deg;
-
-        @media (max-width: 768) {
-                width: 20%;
-            }   
-    }
-    
-    & .saxofone {
-            width:100px;
-            margin:100% 0 0 2%;
-            position:absolute;
-            rotate:50deg;
-
-            @media (max-width: 768px) {
-                width: 10%;
->>>>>>> Stashed changes
-            }
+            width: 20%;
         }
+    }
+    
+    & .violino {
+        width:100px; 
+        margin: 10rem 50px 0 86%;
+        position:absolute;
+        rotate:30deg;
+
+        @media (max-width: 768) {
+            width: 10%;
+        }   
+    }
+
+    & .teclado {
+        width:200px; 
+        margin: 50rem auto 0 85%;
+        position:absolute;
+        rotate:-10deg;
+
+        @media (max-width: 768) {
+                width: 20%;
+            }   
+    }
+    
+    & .saxofone {
+        width:100px;
+        margin:65rem 0 0 0.5rem;
+        position:absolute;
+        rotate:50deg;
+    }
     
 `

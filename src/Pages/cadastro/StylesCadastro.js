@@ -4,8 +4,7 @@ import '../../font.css';
 export const StyledForm = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
+  align-items: left;
   gap: 1rem;
   border-radius:5px;
 `;
@@ -15,11 +14,15 @@ export const StyledInput = styled.input` //Area de texto
   border-radius: 5px;
   font-size: 1rem;
   width: 70%;
+  margin-inline:auto;
   border-radius:5px;
 `;
 
 export const StyledButton = styled.button` //Botao de Autenticação
     padding: 0.5rem 1rem;
+    height:40px;
+    width:80px;
+    margin-inline:auto;
     font-size: 1rem;
     font-family:'Sansation Light';
     font-weight:bold;
@@ -30,7 +33,6 @@ export const StyledButton = styled.button` //Botao de Autenticação
     &:hover{
             background-color: black;
             color:#ff9b50;
-            font-family:'Sansation Light';
             font-weight: 100;
             border:solid;
             border-color:#ff9b50;
@@ -39,7 +41,7 @@ export const StyledButton = styled.button` //Botao de Autenticação
 `;
 
 export const PageContent = styled.div`
-    height: 900px;
+    height: 60rem;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -48,8 +50,6 @@ export const PageContent = styled.div`
         margin-top: 3rem;  
         height: 100%;
         z-index:3;
-        justify-content:left;
-
         @media (max-width: 768px) {
             margin-top: 1rem;
             height: 80%;
@@ -59,9 +59,8 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 60%;
-        height: 70%;
+        height: 65%;
         margin-inline: auto;
-        
 
         background-color: black;
         border:solid;
@@ -70,50 +69,32 @@ export const PageContent = styled.div`
         border-width:2px;
 
         @media (max-width: 768px) {
-            height: 82%;
+            height: 75%;
         }
     }
 
     & h1 {
-        margin-top: 40px;
+        margin-top: 2rem;
         margin-left: 20%;
         margin-bottom:10px;
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-
-        @media (max-width: 768px) {
-            margin-top: 20px;
-        }
-    }
-
-    & .departamento {
-        font-size: 30px;
-        color: #ff9b50;
-        font-family: 'Sansation Light';
-        margin-left:-45%;
-        @media (max-width: 768px) {
-            margin-left:-20%;
-        } 
     }
 
     & h2 {
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        margin-left:-60%;
-        @media (max-width: 768px) {
-            margin-left:-45%;
+        margin-left:15%;
+        @media (max-width: 768px) { 
+            font-size:25px;
         } 
     }
 
     & .nota1 {
         width:100px; 
-<<<<<<< Updated upstream
-        margin: 30% auto 0 8%;
-=======
         margin: 70% auto auto 3%;
->>>>>>> Stashed changes
         position:absolute;
         rotate:-40deg;    
 
@@ -124,14 +105,9 @@ export const PageContent = styled.div`
 
     & .sanfona {
         width:150px; 
-<<<<<<< Updated upstream
         margin: 500px auto auto 85%;
         position:absolute;
         rotate:40deg;    
-=======
-        margin: 60% auto auto 85%;
-        position:absolute;
-        rotate:40deg;    
 
         @media (max-width: 768px) {
             width: 15%;
@@ -143,14 +119,12 @@ export const PageContent = styled.div`
         margin: 5% auto auto 3%;
         position:absolute;
         rotate:-40deg;    
->>>>>>> Stashed changes
 
         @media (max-width: 768px) {
             width: 15%;
         } 
     }
 
-<<<<<<< Updated upstream
     & .headfone {
         width:100px; 
         margin: 5% auto auto 3%;
@@ -162,7 +136,6 @@ export const PageContent = styled.div`
         } 
     }
 
-=======
     & .teclado {
         width:200px; 
         margin: 30% auto 0 8%;
@@ -173,8 +146,7 @@ export const PageContent = styled.div`
                 width: 20%;
             }   
     }
->>>>>>> Stashed changes
-    
+
     & .saxofone {
             width:100px;
             margin:15% 0 0 90%;

@@ -8,11 +8,14 @@ export const StyleCarrossel = styled.div`
     overflow-y: hidden;
     z-index: 1;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     @media (max-width: 768px;) {
         width: 100%;
     }
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 `

@@ -11,7 +11,6 @@ function MeuPerfil() {
 
   return (
     <>
-
       <div>
           <HeaderBase />
 
@@ -19,22 +18,16 @@ function MeuPerfil() {
             <div className="container">
               <h1>Meu Perfil</h1>
               <div className="menuInterno">
-              
-                <div className="containerEditar">
-                  <div className="infoUsuarios">
-                      <h2>Nome:</h2>
-                      <p>Nome Sobrenome</p>
-                      <h2>Email:</h2>
-                      <p>nome@dotimusical.com</p>
-                      <h2>Departamento:</h2>
-                      <p>Departamento</p>
-                      <h2>Cargo:</h2>
-                      <p>Nome do Cargo</p>
-                  </div>
-                      <StyledButton>Editar Perfil</StyledButton>
+                  <h2>Nome:</h2>
+                  <p>Nome Sobrenome</p>
+                  <h2>Email:</h2>
+                  <p>nome@dotimusical.com</p>
+                  <h2>Departamento:</h2>
+                  <p>Departamento</p>
+                  <h2>Cargo:</h2>
+                  <p>Nome do Cargo</p>
+                  <StyledButton>Editar Perfil</StyledButton>
                 </div>
-
-              </div>
             </div>
           </PageContent>
 
