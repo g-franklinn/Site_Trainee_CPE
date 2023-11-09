@@ -1,6 +1,47 @@
 import styled from "styled-components";
 import '../../font.css';
 
+//Botoes, input e formulario
+
+export const StyledForm = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 1rem;
+  border-radius:5px;
+`;
+
+export const StyledInput = styled.input` //Area de texto
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 70%;
+  border-radius:5px;
+`;
+
+export const StyledButton = styled.button` //Botao de Autenticação
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family:'Sansation Light';
+    font-weight:bold;
+    background-color: #ff9b50;
+    color: black;
+    border-radius:5px;
+
+    &:hover{
+            background-color: black;
+            color:#ff9b50;
+            font-family:'Sansation Light';
+            font-weight: 100;
+            border:solid;
+            border-color:#ff9b50;
+            border-width:2px;                        
+        }
+`;
+
+
+
 export const PageContent = styled.div`
     height: 1000px;
     background-color: #222;
@@ -16,11 +57,11 @@ export const PageContent = styled.div`
 
     }
 
-    & .containerEditar {
-        display: flex;
-        flex-wrap: wrap;
-        
+    & .containerUsuarios {
+        margin: auto;
+        margin-left: 20%;
     }
+
 
     & .menuInterno {
 
@@ -45,9 +86,8 @@ export const PageContent = styled.div`
     }
 
     & .infoUsuarios {
-        margin: auto;
+        margin: 0 auto;
         margin-top: 7%;
-        
     }
 
     & h1 {
@@ -68,6 +108,7 @@ export const PageContent = styled.div`
         color: #ff9b50;
         font-family: 'Sansation Light';
         font-weight:100;
+        padding: 10px;
 
         @media (max-width: 768px) {
             font-size: 22px;
@@ -86,7 +127,7 @@ export const PageContent = styled.div`
     }
 
     & button {
-        margin: auto;
+        margin-top: 20px;
         height: 50px;
         width: 180px;
     }

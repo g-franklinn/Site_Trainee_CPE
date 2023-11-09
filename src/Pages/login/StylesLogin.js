@@ -8,6 +8,7 @@ export const StyledForm = styled.div`
   text-align: left;
   gap: 1rem;
   border-radius:5px;
+  padding-top: 10%;
 `;
 
 export const StyledInput = styled.input` //Area de texto

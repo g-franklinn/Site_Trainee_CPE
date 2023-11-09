@@ -1,11 +1,15 @@
 import React from "react";
+import { useState, useEffect } from 'react';
 import HeroSlider, {Slide} from 'hero-slider';
 import { StyleCarrossel } from "./Styles";
 import imagem1 from "../../assets/Carrossel1.jpeg";
 import imagem2 from "../../assets/Carrossel2.jpeg";
 import imagem3 from "../../assets/Carrossel3.jpeg";
 
+
+
 function Carrossel() {
+
     return (
         <StyleCarrossel>
             <HeroSlider

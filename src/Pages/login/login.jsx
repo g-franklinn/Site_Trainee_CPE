@@ -30,8 +30,6 @@ function Login () {
               <div className="menuInterno">
 
                 <StyledForm>
-                  <h2></h2>
-                  <h2></h2>
                   <h2>Usuário</h2>
                   <StyledInput type="text" placeholder="Digite seu login" />
                   <h2>Senha</h2>
