@@ -109,7 +109,7 @@ export const PageContent = styled.div`
 
     & .nota1 {
         width:100px; 
-        margin: 70% auto auto 3%;
+        margin: 650px auto auto 3%;
         position:absolute;
         rotate:-40deg;    
 
@@ -120,7 +120,7 @@ export const PageContent = styled.div`
 
     & .sanfona {
         width:150px; 
-        margin: 60% auto auto 85%;
+        margin: 500px auto auto 85%;
         position:absolute;
         rotate:40deg;    
 

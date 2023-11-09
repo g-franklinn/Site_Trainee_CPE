@@ -46,7 +46,7 @@ export const PageContent = styled.div`
     flex-direction: column;
     
     & .container {
-        margin-top: 3rem;  
+        margin-top: 2rem;  
         height: 100%;
         z-index:3;
 
@@ -74,7 +74,6 @@ export const PageContent = styled.div`
     }
 
     & h1 {
-        margin-top: 40px;
         margin-left: 20%;
         margin-bottom:10px;
         font-size: 40px;

@@ -81,30 +81,30 @@ export const PageContent = styled.div`
     }
 
     & .tambor {
-            width:180px; 
-            margin:80px 0 0 50px;
+            width:150px; 
+            margin:80px 0 0 3%;
             position:absolute;
             rotate:30deg;
 
-            @media (max-width: 1100px) {
+            @media (max-width: 768) {
                 width: 20%;
             }
         }
     
     & .violino {
-        width:140px; 
+        width:100px; 
         margin: 100px 50px 0 86%;
         position:absolute;
         rotate:30deg;
 
-        @media (max-width: 1100px) {
+        @media (max-width: 768) {
                 width: 10%;
             }   
     }   
 
     & .teclado {
         width:200px; 
-        margin: 70% auto 0 85%;
+        margin: 600px auto 0 82%;
         position:absolute;
         rotate:-10deg;
 
@@ -115,12 +115,12 @@ export const PageContent = styled.div`
     
     & .saxofone {
             width:100px;
-            margin:100% 0 0 2%;
+            margin:1000px 0 0 2%;
             position:absolute;
             rotate:50deg;
 
             @media (max-width: 768px) {
-                width: 10%;
+                width: 15%;
             }
         }
     
