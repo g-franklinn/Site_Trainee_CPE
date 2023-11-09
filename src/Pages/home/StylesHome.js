@@ -81,8 +81,13 @@ export const PageContent = styled.div`
     }
 
     & .tambor {
+<<<<<<< Updated upstream
             width:150px; 
             margin:80px 0 0 3%;
+=======
+            width:180px; 
+            margin:80px 0 0 50px;
+>>>>>>> Stashed changes
             position:absolute;
             rotate:30deg;
 
@@ -92,7 +97,11 @@ export const PageContent = styled.div`
         }
     
     & .violino {
+<<<<<<< Updated upstream
         width:100px; 
+=======
+        width:140px; 
+>>>>>>> Stashed changes
         margin: 100px 50px 0 86%;
         position:absolute;
         rotate:30deg;
@@ -101,6 +110,7 @@ export const PageContent = styled.div`
                 width: 10%;
             }   
     }   
+<<<<<<< Updated upstream
 
     & .teclado {
         width:200px; 
@@ -121,6 +131,28 @@ export const PageContent = styled.div`
 
             @media (max-width: 768px) {
                 width: 15%;
+=======
+
+    & .teclado {
+        width:200px; 
+        margin: 70% auto 0 85%;
+        position:absolute;
+        rotate:-10deg;
+
+        @media (max-width: 768) {
+                width: 20%;
+            }   
+    }
+    
+    & .saxofone {
+            width:100px;
+            margin:100% 0 0 2%;
+            position:absolute;
+            rotate:50deg;
+
+            @media (max-width: 768px) {
+                width: 10%;
+>>>>>>> Stashed changes
             }
         }
     

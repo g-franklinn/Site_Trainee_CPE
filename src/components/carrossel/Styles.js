@@ -7,9 +7,12 @@ export const StyleCarrossel = styled.div`
     margin-bottom: -5rem;
     overflow-y: hidden;
     z-index: 1;
+<<<<<<< Updated upstream
 
     @media (max-width: 768px;) {
         width: 100%;
     }
 
+=======
+>>>>>>> Stashed changes
 `

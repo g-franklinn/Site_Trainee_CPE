@@ -109,7 +109,11 @@ export const PageContent = styled.div`
 
     & .nota1 {
         width:100px; 
+<<<<<<< Updated upstream
         margin: 30% auto 0 8%;
+=======
+        margin: 70% auto auto 3%;
+>>>>>>> Stashed changes
         position:absolute;
         rotate:-40deg;    
 
@@ -120,7 +124,12 @@ export const PageContent = styled.div`
 
     & .sanfona {
         width:150px; 
+<<<<<<< Updated upstream
         margin: 500px auto auto 85%;
+        position:absolute;
+        rotate:40deg;    
+=======
+        margin: 60% auto auto 85%;
         position:absolute;
         rotate:40deg;    
 
@@ -134,12 +143,37 @@ export const PageContent = styled.div`
         margin: 5% auto auto 3%;
         position:absolute;
         rotate:-40deg;    
+>>>>>>> Stashed changes
 
         @media (max-width: 768px) {
             width: 15%;
         } 
     }
 
+<<<<<<< Updated upstream
+    & .headfone {
+        width:100px; 
+        margin: 5% auto auto 3%;
+        position:absolute;
+        rotate:-40deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
+
+=======
+    & .teclado {
+        width:200px; 
+        margin: 30% auto 0 8%;
+        position:absolute;
+        rotate:-10deg;
+
+        @media (max-width: 768) {
+                width: 20%;
+            }   
+    }
+>>>>>>> Stashed changes
     
     & .saxofone {
             width:100px;
