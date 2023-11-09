@@ -29,14 +29,17 @@ export const Header = styled.div`
     & h1 {
         width:max-content;
         color: #FF9B50;
-        text-align:left;
+        text-align:center;
         font-family: 'Sansation Light';
         font-size: 85px;
         font-weight: 200;
         margin:auto;
-        margin-left:2%;
+        margin-left:14%;
         user-select: none;
 
+        @media (min-width: 1920px) {
+            margin-left:20%;
+        }
 
         @media (max-width: 868px) {
             font-size: 65px;

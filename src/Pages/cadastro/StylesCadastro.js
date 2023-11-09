@@ -8,6 +8,7 @@ export const StyledForm = styled.div`
   text-align: left;
   gap: 1rem;
   border-radius:5px;
+  margin-top: 50px;
 `;
 
 export const StyledInput = styled.input` //Area de texto
@@ -52,14 +53,14 @@ export const PageContent = styled.div`
 
         @media (max-width: 768px) {
             margin-top: 1rem;
-            height: 80%;
+            height: 90%;
         }
     }
 
     & .menuInterno {
 
         width: 60%;
-        height: 70%;
+        height: 75%;
         margin-inline: auto;
         
 
@@ -91,8 +92,9 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        margin-left:-45%;
+        margin-left:-48%;
         @media (max-width: 768px) {
+            font-size: 20px;
             margin-left:-20%;
         } 
     }
@@ -103,6 +105,7 @@ export const PageContent = styled.div`
         font-family: 'Sansation Light';
         margin-left:-60%;
         @media (max-width: 768px) {
+            font-size: 20px;
             margin-left:-45%;
         } 
     }

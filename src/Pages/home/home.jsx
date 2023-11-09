@@ -2,7 +2,7 @@ import "./StylesHome";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
 import Carrossel from "../../components/carrossel/Carrossel";
-import { PageContent } from "./StylesHome";
+import { PageContent, StyledButton } from "./StylesHome";
 import { Avisos } from "./StylesHome";
 import Tambor from "../../assets/Tambor.svg";
 import Violino from "../../assets/Violino.svg";
@@ -30,7 +30,8 @@ function Home() {
               <div className="menuInterno">
 
                 <div className="containerUsuarios">
-                  <h1>Usuários Online</h1>
+                  <h1 className="usuariosOnline">Usuários Online</h1>
+                  <StyledButton>Fazer Login</StyledButton>
                 </div>
 
                 <div className="menuUsuarios">

@@ -9,6 +9,7 @@ export const StyledForm = styled.div`
   gap: 1rem;
   border-radius:5px;
   padding-top: 10%;
+  
 `;
 
 export const StyledInput = styled.input` //Area de texto
@@ -40,15 +41,17 @@ export const StyledButton = styled.button` //Botao de Autenticação
 `;
 
 export const PageContent = styled.div`
-    height: 500px;
+    height: 900px;
     background-color: #222;
     display:flex;
     flex-direction: column;
     
+    
     & .container {
-        margin-top: 2rem;  
+        margin-top: 6rem;  
         height: 100%;
         z-index:3;
+        
 
         @media (max-width: 768px) {
             margin-top: 1rem;
@@ -59,8 +62,9 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 60%;
-        height: 70%;
+        height: 60%;
         margin-inline: auto;
+        overflow-y: hidden;
 
         background-color: black;
         border:solid;
