@@ -1,6 +1,11 @@
 import "./StylesCadastro";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
+import Nota1 from "../../assets/Nota 1.svg";
+import Teclado from "../../assets/Teclado.svg";
+import Saxofone from "../../assets/Saxofone.svg";
+import Headfone from "../../assets/Headfone.svg";
+import Sanfona from "../../assets/Sanfona.svg";
 import { PageContent, StyledForm, StyledInput, StyledButton } from "./StylesCadastro";
 
 
@@ -14,6 +19,13 @@ function Cadastro() {
           <HeaderBase />
 
           <PageContent>
+            
+          <img src={Saxofone}  className="saxofone" />  
+          <img src={Teclado}  className="teclado" />
+          <img src={Nota1}  className="nota1" />
+          <img src={Sanfona}  className="sanfona" />
+          <img src={Headfone}  className="headfone" />
+
             <div className="container">
               <h1>Cadastro</h1>
               <div className="menuInterno">

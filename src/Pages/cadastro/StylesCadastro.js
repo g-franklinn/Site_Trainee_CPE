@@ -70,7 +70,7 @@ export const PageContent = styled.div`
         border-width:2px;
 
         @media (max-width: 768px) {
-            height: 75%;
+            height: 82%;
         }
     }
 
@@ -81,7 +81,6 @@ export const PageContent = styled.div`
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
 
         @media (max-width: 768px) {
             margin-top: 20px;
@@ -92,26 +91,74 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
-        margin-left:-30%;
+        margin-left:-45%;
+        @media (max-width: 768px) {
+            margin-left:-20%;
+        } 
     }
 
     & h2 {
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
-        margin-left:-50%;
+        margin-left:-60%;
+        @media (max-width: 768px) {
+            margin-left:-45%;
+        } 
     }
 
     & .nota1 {
-        width:120px; 
-        margin: 40px auto auto 1%;
+        width:100px; 
+        margin: 70% auto auto 3%;
         position:absolute;
-        rotate:-5deg;    
+        rotate:-40deg;    
 
         @media (max-width: 768px) {
             width: 15%;
         } 
     }
+
+    & .sanfona {
+        width:150px; 
+        margin: 60% auto auto 85%;
+        position:absolute;
+        rotate:40deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
+
+    & .headfone {
+        width:100px; 
+        margin: 5% auto auto 3%;
+        position:absolute;
+        rotate:-40deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
+
+    & .teclado {
+        width:200px; 
+        margin: 30% auto 0 8%;
+        position:absolute;
+        rotate:-10deg;
+
+        @media (max-width: 768) {
+                width: 20%;
+            }   
+    }
+    
+    & .saxofone {
+            width:100px;
+            margin:15% 0 0 90%;
+            position:absolute;
+            rotate:50deg;
+
+            @media (max-width: 768px) {
+                width: 10%;
+            }
+        }
 `

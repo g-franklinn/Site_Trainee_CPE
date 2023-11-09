@@ -16,17 +16,13 @@ export const Avisos = styled.div`
     background-color: #222;
     padding-top: 80px;
 
-
     & h1 {
-        
         color:#ff9b50;
         font-family:'Sansation Light';
         font-weight:600;
         font-size: 38px;
-        margin-left:25%;
+        margin-left:20%;
     }
-
-
 `
 
 export const PageContent = styled.div`
@@ -35,21 +31,16 @@ export const PageContent = styled.div`
     display:flex;
     flex-direction: column;
     
-
-
-    
-
     & .menuInterno {
 
         width: 80%;
-        height: 50%;
-        margin-top: -10rem;
+        height: 2500px;
+        margin-top: 4rem;
         margin-bottom: 10rem;
         margin-inline: auto;
         z-index: 1;
         overflow-y: hidden;
         
-
         background-color: black;
         border:solid;
         border-width:3px;
@@ -82,8 +73,6 @@ export const PageContent = styled.div`
                 height: 50px;
             }
         }
-
-    
     }
 
     & img {
@@ -92,7 +81,7 @@ export const PageContent = styled.div`
     }
 
     & .tambor {
-            width:200px; 
+            width:180px; 
             margin:80px 0 0 50px;
             position:absolute;
             rotate:30deg;
@@ -100,20 +89,39 @@ export const PageContent = styled.div`
             @media (max-width: 1100px) {
                 width: 20%;
             }
-            
         }
     
     & .violino {
-        width:160px; 
+        width:140px; 
         margin: 100px 50px 0 86%;
         position:absolute;
         rotate:30deg;
 
         @media (max-width: 1100px) {
                 width: 10%;
-            }
-        
+            }   
+    }   
+
+    & .teclado {
+        width:200px; 
+        margin: 70% auto 0 85%;
+        position:absolute;
+        rotate:-10deg;
+
+        @media (max-width: 768) {
+                width: 20%;
+            }   
     }
+    
+    & .saxofone {
+            width:100px;
+            margin:100% 0 0 2%;
+            position:absolute;
+            rotate:50deg;
 
-
+            @media (max-width: 768px) {
+                width: 10%;
+            }
+        }
+    
 `

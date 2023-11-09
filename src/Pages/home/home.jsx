@@ -22,8 +22,6 @@ function Home() {
           <h1>Avisos:</h1>
           </Avisos>
           
-          
-
           <PageContent>
           <Carrossel/>  
           <img src={Tambor}  className="tambor" />
@@ -31,16 +29,18 @@ function Home() {
           
               <div className="menuInterno">
 
-              <div className="containerUsuarios">
-                <h1>Usuários Online</h1>
+                <div className="containerUsuarios">
+                  <h1>Usuários Online</h1>
+                </div>
+
+                <div className="menuUsuarios">
+
+                </div>
 
               </div>
-
-              <div className="menuUsuarios">
-
-              </div>
-
-              </div>
+              
+            <img src={Teclado}  className="teclado" />
+            <img src={Saxofone}  className="saxofone" />
           </PageContent>
 
           <FooterBase/>

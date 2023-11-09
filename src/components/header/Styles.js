@@ -21,8 +21,6 @@ export const Header = styled.div`
         margin-bottom:-45px;
         user-select: none;
         
-        
-        
         @media (max-width: 628px) {
             margin-bottom:-45px;
         }
@@ -31,11 +29,12 @@ export const Header = styled.div`
     & h1 {
         width:max-content;
         color: #FF9B50;
-        text-align:center;
+        text-align:left;
         font-family: 'Sansation Light';
         font-size: 85px;
         font-weight: 200;
         margin:auto;
+        margin-left:2%;
         user-select: none;
 
 
@@ -50,8 +49,6 @@ export const Header = styled.div`
         height: 30px;
         background: #EEE;
         padding-inline:10%;
-
-
 
         @media (max-width: 768px) {
             display:flex;
@@ -90,5 +87,5 @@ export const Header = styled.div`
     @media (max-width: 768px) {
         flex-direction:column;
         position:relative;
-        }
+    }
 `

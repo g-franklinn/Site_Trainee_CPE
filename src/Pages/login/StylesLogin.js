@@ -40,7 +40,7 @@ export const StyledButton = styled.button` //Botao de Autenticação
 `;
 
 export const PageContent = styled.div`
-    height: 800px;
+    height: 500px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -80,7 +80,6 @@ export const PageContent = styled.div`
         font-size: 40px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
 
         @media (max-width: 768px) {
             margin-top: 20px;
@@ -91,7 +90,6 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        font-weight:100;
         margin-left:-50%;
     }
 
