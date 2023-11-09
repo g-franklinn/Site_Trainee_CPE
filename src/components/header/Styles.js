@@ -34,7 +34,7 @@ export const Header = styled.div`
         font-size: 85px;
         font-weight: 200;
         margin:auto;
-        margin-left:14%;
+        margin-left:5%;
         user-select: none;
 
         @media (min-width: 1920px) {
