@@ -42,7 +42,8 @@ export const Header = styled.div`
         }
 
         @media (max-width: 868px) {
-            font-size: 65px;
+            font-size: 60px;
+            margin-left:0px;
         }
     }
 

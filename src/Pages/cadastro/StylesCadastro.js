@@ -60,7 +60,7 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 60%;
-        height: 65%;
+        height: 70%;
         margin-inline: auto;
 
         background-color: black;
@@ -70,7 +70,7 @@ export const PageContent = styled.div`
         border-width:2px;
 
         @media (max-width: 768px) {
-            height: 75%;
+            height: 70%;
         }
     }
 

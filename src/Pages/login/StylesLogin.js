@@ -39,7 +39,7 @@ export const StyledButton = styled.button` //Botao de Autenticação
 `;
 
 export const PageContent = styled.div`
-    height: 900px;
+    height: 45rem;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -50,7 +50,6 @@ export const PageContent = styled.div`
         height: 100%;
         z-index:3;
         
-
         @media (max-width: 768px) {
             margin-top: 0rem;
             height: 80%;
@@ -60,7 +59,7 @@ export const PageContent = styled.div`
     & .menuInterno {
 
         width: 60%;
-        height: 60%;
+        height: 55%;
         margin-inline: auto;
         overflow-y: hidden;
 
@@ -70,9 +69,6 @@ export const PageContent = styled.div`
         border-color: #ff9b50;
         border-width:2px;
 
-        @media (max-width: 768px) {
-            height: 75%;
-        }
     }
 
     & h1 {

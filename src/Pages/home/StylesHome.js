@@ -83,8 +83,6 @@ export const PageContent = styled.div`
 
         }
 
-
-
         & .menuUsuarios {
             margin-top: 3%;
             width: 100%;
@@ -98,18 +96,28 @@ export const PageContent = styled.div`
             display: flex;
             margin: auto;
 
+            & h1 {
+                min-width:130px;
+                font-size:30px;
+                @media (max-width:768px) {
+                    font-size:25px;
+                }
+            }
 
             & button { 
                 margin-top: 30px;
-                width: 50%;
+                min-width:70px;
+                max-width:120px;
                 height: 50px;
-                margin-left: 50%;
+                margin-left: 20%;
                 overflow-y: hidden;
+                @media (max-width:768px) {
+                    margin-left:0;
                 }
-
+            }
+                
             }
         }
-    }
 
     & img {
         overflow-x: hidden;
@@ -142,12 +150,7 @@ export const PageContent = styled.div`
         width:200px; 
         margin: 50rem auto 0 85%;
         position:absolute;
-        rotate:-10deg;
-
-        @media (max-width: 768px) {
-                width: 30%;
-                margin-top: 100%;
-            }   
+        rotate:-10deg;  
     }
     
     & .saxofone {
