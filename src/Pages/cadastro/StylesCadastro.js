@@ -95,7 +95,7 @@ export const PageContent = styled.div`
 
     & .nota1 {
         width:100px; 
-        margin: 70% auto auto 3%;
+        margin: 50% auto auto 3%;
         position:absolute;
         rotate:-40deg;    
 
@@ -109,17 +109,6 @@ export const PageContent = styled.div`
         margin: 500px auto auto 85%;
         position:absolute;
         rotate:40deg;    
-
-        @media (max-width: 768px) {
-            width: 15%;
-        } 
-    }
-
-    & .headfone {
-        width:100px; 
-        margin: 5% auto auto 3%;
-        position:absolute;
-        rotate:-40deg;    
 
         @media (max-width: 768px) {
             width: 15%;

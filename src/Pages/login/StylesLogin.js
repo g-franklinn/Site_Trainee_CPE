@@ -85,9 +85,7 @@ export const PageContent = styled.div`
         color: #ff9b50;
         font-family: 'Sansation Light';
         margin-left:-50%;
-    }
-        
-        
+    }      
 
     & .violino {
         width:70px; 

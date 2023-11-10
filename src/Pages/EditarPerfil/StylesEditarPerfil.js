@@ -42,7 +42,7 @@ export const StyledButton = styled.button` //Botao de Autenticação
 
 export const PageContent = styled.div`
 
-    height: 1000px;
+    height: 900px;
     background-color: #222;
     display:flex;
     flex-direction: column;
@@ -50,6 +50,7 @@ export const PageContent = styled.div`
     & .container {
         margin-top:3rem;
         height: 100%;
+        z-index:1;
         @media (max-width: 768px) {
             margin-top: 1rem;
             height: 80%;
@@ -60,7 +61,7 @@ export const PageContent = styled.div`
 
         padding-top:2rem;
         width: 60%;
-        height: 65%;
+        height: 75%;
         margin-inline: auto;
 
         background-color: black;
@@ -70,7 +71,7 @@ export const PageContent = styled.div`
         border-width:2px;
 
         @media (max-width: 768px) {
-            height: 75%;
+            height: 85%;
         }
     }
 
@@ -101,6 +102,47 @@ export const PageContent = styled.div`
         height: 50px;
         width: 170px;
     }
+    
+    & .violino {
+        width:70px; 
+        margin: 120px 50px 0 90%;
+        position:absolute;
+        rotate:30deg;
+        
+        @media (max-width: 768px) {
+            width: 10%;
+        }
+    }
 
+    & .nota1 {
+        width:100px; 
+        margin: 100px auto auto 3%;
+        position:absolute;
+        rotate:-30deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
+
+        
+    & .saxofone {
+        width:150px;
+        margin: 35rem auto 0 5%;
+        position:absolute;
+        rotate:-10deg;  
+        z-index:0;
+    }
+    
+    & .teclado {
+        width:150px; 
+        margin: 450px auto auto 85%;
+        position:absolute;
+        rotate:40deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
 
 `

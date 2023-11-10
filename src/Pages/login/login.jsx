@@ -1,4 +1,3 @@
-import "./StylesLogin";
 import HeaderBase from "../../components/header/header";
 import FooterBase from "../../components/footer/footer";
 import { PageContent, StyledForm, StyledInput, StyledButton } from "./StylesLogin";

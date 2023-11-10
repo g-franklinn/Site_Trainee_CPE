@@ -13,7 +13,7 @@ function Carrossel() {
     return (
         <StyleCarrossel>
             <HeroSlider
-                height="40vh"
+                height="50vh"
                 autoplay
                 backgroundSize="100% 100%"
                 slidingDuration={20}

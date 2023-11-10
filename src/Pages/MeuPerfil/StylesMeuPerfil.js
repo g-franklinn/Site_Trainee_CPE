@@ -11,6 +11,7 @@ export const PageContent = styled.div`
         margin-inline:auto;
         height: 100%;
         width:100%;
+        z-index:1;
     }
 
     & .menuInterno {
@@ -77,5 +78,59 @@ export const PageContent = styled.div`
         }
     }
 
+    & .microfone {
+        width:90px; 
+        margin: 50px auto auto 3%;
+        position:absolute;
+        rotate:-5deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
+
+    & .nota1 {
+        width:100px; 
+        margin: 450px auto auto 5%;
+        position:absolute;
+        rotate:-5deg;
+        z-index:0;
+
+        @media (max-width: 768px) {
+            width: 15%;
+        }
+    }
+    
+    & .nota5 {
+        width:70px; 
+        margin: 100px auto auto 90%;
+        position:absolute;
+        rotate:-5deg;  
+
+        @media (max-width: 768px) {
+            width: 12%;
+        }
+    }
+
+    
+    & .teclado {
+        width:150px;
+        margin: 15rem auto 0 10%;
+        position:absolute;
+        rotate:-10deg;  
+        z-index:0;
+    }
+    
+
+    & .saxofone {
+        width:150px; 
+        margin: 350px auto auto 85%;
+        position:absolute;
+        rotate:40deg;    
+
+        @media (max-width: 768px) {
+            width: 15%;
+        } 
+    }
 
 `
