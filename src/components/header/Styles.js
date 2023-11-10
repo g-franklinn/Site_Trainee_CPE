@@ -20,7 +20,7 @@ export const Header = styled.div`
         width:22rem;
         margin-left:-15px;
         user-select: none;
-        position: absolute;
+
 
 
         
@@ -32,7 +32,7 @@ export const Header = styled.div`
     & h1 {
         width:max-content;
         color: #FF9B50;
-        align-items: center;
+        align-items: end;
         font-family: 'Sansation Light';
         font-size: 85px;
         font-weight: 200;
@@ -57,7 +57,7 @@ export const Header = styled.div`
         background: #EEE;
         padding-inline:10%;
         z-index: 1;
-        position: absolute;
+
 
         @media (max-width: 768px) {
             display:flex;
