@@ -95,7 +95,7 @@ export const PageContent = styled.div`
 
     & .nota1 {
         width:100px; 
-        margin: 70% auto auto 3%;
+        margin: 45% auto auto 3%;
         position:absolute;
         rotate:-40deg;    
 

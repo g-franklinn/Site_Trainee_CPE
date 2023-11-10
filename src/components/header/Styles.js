@@ -10,16 +10,19 @@ export const Header = styled.div`
         width:100%;
         overflow: hidden;
 
+
         @media (max-width: 628px) {
             height:180px;
         }
     }
 
     & .guitar-icon {
-        width:20rem;
+        width:22rem;
         margin-left:-15px;
-        margin-bottom:-45px;
         user-select: none;
+        position: absolute;
+
+
         
         @media (max-width: 628px) {
             margin-bottom:-45px;
@@ -29,12 +32,11 @@ export const Header = styled.div`
     & h1 {
         width:max-content;
         color: #FF9B50;
-        text-align:center;
+        align-items: center;
         font-family: 'Sansation Light';
         font-size: 85px;
         font-weight: 200;
         margin:auto;
-        margin-left:5%;
         user-select: none;
 
         @media (min-width: 1920px) {
@@ -48,11 +50,14 @@ export const Header = styled.div`
     }
 
     & .header-menu {
+        width: 100%;
         text-align: center;
         font-family: 'Sansation Light';
         height: 30px;
         background: #EEE;
         padding-inline:10%;
+        z-index: 1;
+        position: absolute;
 
         @media (max-width: 768px) {
             display:flex;
@@ -70,6 +75,7 @@ export const Header = styled.div`
         padding-inline:2%;
         position:relative;
         user-select: none;
+
         
         &:hover{
             background-color: #CDCDCD;
