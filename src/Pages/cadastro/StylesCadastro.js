@@ -93,13 +93,19 @@ export const PageContent = styled.div`
         } 
     }
 
+    & img {
+        user-select: none;
+        overflow-x: hidden;
+    }
+
     & .nota1 {
         width:100px; 
-        margin: 50% auto auto 3%;
+        margin: 30% auto auto 3%;
         position:absolute;
         rotate:-40deg;    
 
         @media (max-width: 768px) {
+            margin-top: 90%;
             width: 15%;
         } 
     }

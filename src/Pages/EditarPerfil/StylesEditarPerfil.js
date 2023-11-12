@@ -102,6 +102,11 @@ export const PageContent = styled.div`
         height: 50px;
         width: 170px;
     }
+
+    & img {
+        user-select: none;
+        overflow-x: hidden;
+    }
     
     & .violino {
         width:70px; 

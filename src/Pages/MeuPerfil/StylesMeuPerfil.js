@@ -20,6 +20,7 @@ export const PageContent = styled.div`
         height: 65%;
         padding-top:2rem;
         margin-inline: auto;   
+        text-align: center;
 
         background-color: black;
         border:solid;
@@ -28,6 +29,7 @@ export const PageContent = styled.div`
         border-width:3px;
 
         @media (max-width: 768px) {
+            width: 90%;
             height: 55%;
         }
     }
@@ -47,9 +49,11 @@ export const PageContent = styled.div`
         font-size: 26px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        margin-left:5%;
+        margin-left:35%;
+        text-align: left;
 
         @media (max-width: 768px) {
+            margin-left:20%;
             font-size: 22px;
         }
     }
@@ -59,9 +63,11 @@ export const PageContent = styled.div`
         color: white;
         font-family: 'Sansation Light';
         font-weight:100;
-        margin-left:10%;
+        margin-left:37%;
+        text-align: left;
 
         @media (max-width: 768px) {
+            margin-left:25%;
             font-size: 20px;
             padding:1px;
         }
@@ -69,12 +75,22 @@ export const PageContent = styled.div`
 
     & button {
         margin: auto;
-        margin-left:75%;
+        margin-top: 30px;
         height: 40px;
         width: 120px;
         @media(max-width:768px) {
             margin-top:1rem;
-            margin-left:30%;
+        }
+    }
+
+    & img {
+        user-select: none;
+        overflow-x: hidden;
+    }
+
+    & .email{
+        @media(max-width:768px) {
+            font-size: 16px;
         }
     }
 

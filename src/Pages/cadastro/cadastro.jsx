@@ -27,15 +27,15 @@ function Cadastro() {
               <div className="menuInterno">
                 <StyledForm>
 
-                  <h2>Usuário</h2>
+                  <h2>Usuário:</h2>
                   <StyledInput type="text" placeholder="Digite seu nome de usuário" />
-                  <h2>Email</h2>
+                  <h2>Email:</h2>
                   <StyledInput type="text" placeholder="Digite seu email" />
-                  <h2>Departamento</h2>
+                  <h2>Departamento:</h2>
                   <StyledInput type="text" placeholder="Digite seu departamento" />
-                  <h2>Cargo</h2>
+                  <h2>Cargo:</h2>
                   <StyledInput type="text" placeholder="Digite seu cargo" />
-                  <h2>Senha</h2>
+                  <h2>Senha:</h2>
                   <StyledInput type="password" placeholder="Digite sua senha" />
                   <StyledButton className="loginBtn" >Entrar</StyledButton>
                 </StyledForm>

@@ -33,7 +33,7 @@ function MeuPerfil() {
                   <h2>Nome:</h2>
                   <p>Nome Sobrenome</p>
                   <h2>Email:</h2>
-                  <p>nome@dotimusical.com</p>
+                  <p className="email">nome@dotimusical.com</p>
                   <h2>Departamento:</h2>
                   <p>Departamento</p>
                   <h2>Cargo:</h2>

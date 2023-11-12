@@ -84,8 +84,13 @@ export const PageContent = styled.div`
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
-        margin-left:-50%;
-    }      
+        margin-left:-60%;
+    }
+    
+    & img {
+        user-select: none;
+        overflow-x: hidden;
+    }
 
     & .violino {
         width:70px; 

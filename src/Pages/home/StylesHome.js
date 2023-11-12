@@ -56,6 +56,7 @@ export const PageContent = styled.div`
 
         width: 80%;
         height: 2500px;
+        margin-top: 5rem;
 
         margin-bottom: 10rem;
         margin-inline: auto;
@@ -140,6 +141,7 @@ export const PageContent = styled.div`
         margin: 10rem 50px 0 86%;
         position:absolute;
         rotate:30deg;
+        overflow: hidden;
 
         @media (max-width: 768) {
             width: 10%;
