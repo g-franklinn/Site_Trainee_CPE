@@ -1,0 +1,54 @@
+import "./StylesHome";
+import HeaderBase from "../../components/header/header";
+import FooterBase from "../../components/footer/footer";
+import Carrossel from "../../components/carrossel/Carrossel";
+import { PageContent, StyledButton } from "./StylesHome";
+import { Avisos } from "./StylesHome";
+import Tambor from "../../assets/Tambor.svg";
+import Violino from "../../assets/Violino.svg";
+import Teclado from "../../assets/Teclado.svg";
+import Saxofone from "../../assets/Saxofone.svg";
+
+
+function Home() {
+
+  return (
+    <>
+
+      <div>
+          <HeaderBase />
+
+          <Avisos>
+          <h1>Avisos:</h1>
+          </Avisos>
+          
+          <PageContent>
+          <Carrossel/>  
+          <img src={Tambor}  className="tambor" />
+          <img src={Violino}  className="violino" />
+          
+              <div className="menuInterno">
+
+                <div className="containerUsuarios">
+                  <h1 className="usuariosOnline">Usuários Online</h1>
+                  <StyledButton>Fazer Login</StyledButton>
+                </div>
+
+                <div className="menuUsuarios">
+
+                </div>
+
+              </div>
+              
+            <img src={Teclado}  className="teclado" />
+            <img src={Saxofone}  className="saxofone" />
+          </PageContent>
+
+          <FooterBase/>
+      </div>
+
+    </>
+  )
+} 
+
+export default Home;

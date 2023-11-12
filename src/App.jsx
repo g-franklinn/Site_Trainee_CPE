@@ -1,10 +1,14 @@
+import { Footer, Header, PageContent, GlobalStyle } from "./styles.js";
+import Routes from "./routes.jsx";
+ 
+
+
 function App() {
 
   return (
     <>
-      oi
-      <input></input>
-      <p>Sejam bem vindos à primeira versão do nosso site!</p>
+    <GlobalStyle />
+    <Routes/>
     </>
   )
 }
