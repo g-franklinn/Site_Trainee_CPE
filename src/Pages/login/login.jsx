@@ -5,14 +5,27 @@ import Violino from "../../assets/Violino.svg";
 import Nota1 from "../../assets/Nota 1.svg";
 import Nota4 from "../../assets/Nota 4.svg";
 import Arpa from "../../assets/Arpa.svg";
+import { useState } from "react";
+import api from "../../services/Api";
 
 
 
 function Login () {
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
 
-  //Função para autenticar o usuario e implementar no back depois.
-  const handleLogin = () => {
-    alert("Usuário autenticado!");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log({email, senha});
+
+    try {
+      const res = api.post("/login", {email, senha});
+      console.log(res.data);
+    } catch (erro) {
+      console.error(erro);
+      alert(erro.message);
+    }
+
   };
 
   return (
@@ -28,12 +41,13 @@ function Login () {
               <h1>Login</h1>
               <div className="menuInterno">
 
-                <StyledForm>
-                  <h2>Usuário:</h2>
-                  <StyledInput type="text" placeholder="Digite seu login" />
-                  <h2>Senha:</h2>
-                  <StyledInput type="password" placeholder="Digite sua senha" />
-                  <StyledButton className="loginBtn" onClick={handleLogin}>Entrar</StyledButton>
+                <StyledForm onSubmit={handleSubmit}>
+                  <label htmlFor="email">Usuário:</label>
+                  <StyledInput  id="email"  name="email" type="email" placeholder="Digite seu login" required onChange={(e) => setEmail(e.target.value)}/>
+
+                  <label htmlFor="senha">Senha:</label>
+                  <StyledInput  id="senha"  name="senha" type="password" placeholder="Digite sua senha" required onChange={(e) => setSenha(e.target.value)}/>
+                  <StyledButton className="loginBtn" type="submit">Entrar</StyledButton>
                 </StyledForm>
               </div>
             </div>

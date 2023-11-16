@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import '../../font.css';
 
-export const StyledForm = styled.div`
+export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,11 +80,16 @@ export const PageContent = styled.div`
         font-family: 'Sansation Light';
     }
 
-    & h2 {
+    & label {
         font-size: 30px;
         color: #ff9b50;
         font-family: 'Sansation Light';
         margin-left:-60%;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+            margin-left: -40%;
+        }
     }
     
     & img {
